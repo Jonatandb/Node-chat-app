@@ -15,7 +15,7 @@ app.use((req, res, next)=>{
 
 var publicPath = path.join(__dirname, "../public");
 
-app.use('/', express.static(publicPath));
+app.use(express.static(publicPath));
 
 app.listen(app.get('port'), ()=>{
     let message = 'Servidor ejecutándose en el puerto: ' 
