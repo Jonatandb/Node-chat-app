@@ -1,0 +1,1 @@
+Proyecto de prueba realizado para aprender a utilizar Socket.io.
